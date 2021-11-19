@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+html{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+body{
+    
+    font-family: 'Zen Antique', serif;
+    left: 0px;
+    top: 0px;
+}
+nav{
+    float:right;
+    
+    
+}
+li{
+    display: inline;
+    padding-right: 20px;
+}
+svg{
+    float: left;
+}
+header{
+    width: 100%;
+    background-color: rgb(50, 124, 68);
+    height: 110px;
+    margin: -7.5;
+    font-size:10vw; padding:2vw
+    
+}
+h1{
+    font-size:5vw; padding:0vw;
+    
+}
+
+nav{
+    font-size: 30px;
+    padding: 10px;
+}
+#LogoS:hover{
+    width: 200px;
+    transition: 0.9s;
+}
+.hamburger-menu { 
+    display: none; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
+a:active{
+    color: rgb(131, 128, 128);
+}
+#activec{
+    color: #555;
+}
+.packagetour{
+    position: relative;
+    display: inline-block;
+}
+.continents {
+    display: none;
+    position: absolute;
+    background-color: rgb(50, 124, 68);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+.continents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.continents a:hover {
+    background-color: #ddd;
+}
+
+.packagetour:hover .continents {
+    display: block;
+}
+
+h1{
+    display: inline;
+    padding-left: 50px;
+}
+video{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    z-index: -1;
+}
+.container{
+    background-color: black;
+    height: 230px;
+  
+    margin-top: 330px;
+    
+}
+footer{
+    height: 80px;
+    background-color: gray;
+    margin: -7.5;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18;
+}
+    
+.left, .right, .center, .packagecenter {
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 170px;
+    text-align: center;
+    
+ }
+ .left {
+    background-color: tomato;
+    
+ }
+ .left:hover, .right:hover, .center:hover{
+      filter: grayscale(90%);
+ }
+ .right {
+    background-color: teal;
+ }
+ .center {
+    background-color: rgb(166, 71, 255);
+ }
+ .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+img{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .main-menu { 
+        display: none; 
+    }
+    .hamburger-menu { 
+        display: inline; 
+    }
+    .container{
+        background-color: transparent;
+        height: 100%;
+        margin-top:200px;
+    }
+    video{
+        display: none;
+    }
+    img{
+        display:block;
+        position: absolute;
+        width: 100%;
+        height: 160%;
+        left: 0px;
+        top: 0px;
+        right:0px;
+        z-index: -1;
+    }
+    .left, .right, .center, .packagecenter {
+        width: 80%;
+        height: 25%;
+        font-size: 3vw; padding:0vw;
+    }
+    h1{
+        display: inline;
+    }
+}
+    
